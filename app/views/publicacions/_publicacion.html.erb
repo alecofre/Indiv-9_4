@@ -10,4 +10,10 @@
      <% end %>
   </p>
 
+  <p>
+    <% if publicacion.foto.attached? %>
+      <%= image_tag publicacion.foto, size:'100' %>
+    <% end %>
+  </p>
+
 </div>
